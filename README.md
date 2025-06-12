@@ -48,3 +48,20 @@ Command --friends result for user_id=222777514:
 * last_name: Смелый
 * sex: Men
 ```
+2. Команда --albums (получение альбомов пользователя):
+```C:\Users\Lenovo\Projects\Python\VK-API>python main.py -a -c 3 222777514:
+Command --albums result for user_id=222777514:
+* id: 263029148
+* title: Санкт-Петербург
+* size: 13
+* description:
+===================
+* id: 239654233
+* title: 2022
+* size: 2
+* description:
+===================
+* id: 233998806
+* title: Борьба
+* size: 10
+* description:```
