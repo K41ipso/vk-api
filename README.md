@@ -49,7 +49,8 @@ Command --friends result for user_id=222777514:
 * sex: Men
 ```
 2. Команда --albums (получение альбомов пользователя):
-```C:\Users\Lenovo\Projects\Python\VK-API>python main.py -a -c 3 222777514:
+```
+C:\Users\Lenovo\Projects\Python\VK-API>python main.py -a -c 3 222777514:
 Command --albums result for user_id=222777514:
 * id: 263029148
 * title: Санкт-Петербург
@@ -64,4 +65,15 @@ Command --albums result for user_id=222777514:
 * id: 233998806
 * title: Борьба
 * size: 10
-* description:```
+* description:
+```
+3. Команда --userinfo (получение информации о пользователе):
+```
+C:\Users\Lenovo\Projects\Python\VK-API>python main.py -u 22277751432:
+Command --userinfo result for user_id=22277751432:
+* first_name: Анастасия
+* last_name: Старикова
+* sex: Women
+* bdate: 11.11.2003
+* city: Тихий
+```
